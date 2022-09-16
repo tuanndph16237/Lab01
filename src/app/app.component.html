@@ -1,13 +1,15 @@
-<div class="container">
-  <div class="caption">
-    <h4>Student Information</h4>
-    <img src="../assets/images/{{ student.images }}" alt="">
-  </div>
-  <ul>
-    <li><span>Ho ten:</span>{{ student.FullName }}</li>
-    <li><span>Ngay sinh:</span>{{ student.DateofBirth }}</li>
-    <li><span>Gioi tinh:</span>{{ student.Gioitinh }}</li>
-    <li><span>Diem Trung Binh:</span>{{ student.diemTB }}</li>
-  </ul>
-</div>
+<main>
+  <table style="border: 1; width: 50%;">
+    <tr>
+      <td>ID</td>
+      <td>First name</td>
+      <td>Last name</td>
+      <td>Year</td>
+      <td>Passed</td>
+    </tr>
+    <tbody id="inventor">
+
+    </tbody>
+  </table>
+</main>
 <router-outlet></router-outlet>
